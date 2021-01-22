@@ -68,8 +68,12 @@ body {
       
 }
     
- #green {
-     color: skyblue }   
+#green {
+     color: skyblue 
+} 
+#blue {
+    color: skyblue 
+} 
 
  #greenIcon {
      color: 
