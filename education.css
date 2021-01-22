@@ -1,0 +1,81 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif; 
+  
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.greenHover center a:hover {
+    color: skyblue;
+}
+
+.main {
+    display: flex;
+    position: fixed; 
+    width: 100vw;
+    height: 600px;
+    padding-top: 20px; 
+    object-fit: contain;
+    background-image: url(/bilder/spotify-main.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100px;
+}
+
+
+#noMargin {
+    margin-bottom: 0px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+
+    
+a:hover {
+    font-style: bold;
+    font-size: large;
+    font-weight: bolder;
+    color: skyblue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+   
+  
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 92px;    
+}

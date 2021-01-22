@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+body {
+    background-color: black;
+    object-fit: contain;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+  
+
+.divColumn {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    flex-direction: column;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.flex .left {
+    
+    float: left; 
+    text-align: start;
+}
+
+.flex .right {
+    float: right;
+    text-align: start;
+}
+
+#topThree {
+    padding-left: 30px;
+}
+
+#lista {
+    padding-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 92px;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+    font-style: bold;
+    font-size: large;
+    font-weight: bolder;
+}

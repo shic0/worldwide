@@ -1,0 +1,73 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+body {
+    background-color: black;
+    object-fit: contain;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.width {
+    width: 90%;
+}
+
+main {
+    background-color: black;
+    object-fit: contain;
+    margin-top: 10px;
+}
+#playlistPic {
+    width: 160px;
+    height: auto;
+
+}
+.playlist {
+    color: skyblue;
+    text-align: center;
+}
+
+
+#listenNow {
+    width: 200px;
+}
+
+#shico {
+    font-size: x-large;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 92px;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+    font-style: bold;
+    font-size: large;
+    font-weight: bolder;
+}
