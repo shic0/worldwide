@@ -11,7 +11,10 @@ body {
 }
 
 #space {
-margin-top: 40px;
+/* margin-top: 10px; */
+padding-left: 17%;
+padding-right: 17%;
+
 }
 
 .line {

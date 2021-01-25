@@ -12,9 +12,11 @@ body {
   
 }
 
-/* header {
-    background-image: url(/skyy.jpeg);
-} */
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+} 
 
 .header {
     display: flex;
@@ -22,13 +24,13 @@ body {
     height: 220px;
     position: sticky;
     top: 0px;
-    margin-left: 420px;  
+    
 } 
 
 .headerContainer {
     display: flex;
     justify-content: center; 
-    flex: 1 0 50%;
+    margin-left: 33%;
 }
 
 .pic {
@@ -283,6 +285,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 8px;
     color: skyblue;
     font-size: small;
 
